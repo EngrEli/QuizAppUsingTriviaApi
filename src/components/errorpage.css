@@ -1,0 +1,30 @@
+.error-container {
+  text-align: center;
+  line-height: 4rem;
+  color: white;
+  font-family: "Freckle Face";
+}
+.error {
+  font-size: 3rem;
+}
+
+.home-link:hover {
+  color: white;
+}
+div.error-container p {
+  font-size: 1.5rem;
+}
+a.home-link {
+  color: white;
+  font-size: 1.4rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /*--- Mobile portrait ---*/
+  .error {
+    font-size: 2rem;
+  }
+  div.error-container p {
+    font-size: 1.2rem;
+  }
+}

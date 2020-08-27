@@ -1,0 +1,56 @@
+.finish {
+  color: white;
+  font-family: "Freckle Face";
+  font-size: 2rem;
+  padding: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.finish-to-home,
+.finish-to-home:hover {
+  color: white;
+}
+div.finish-score {
+  font-family: "bangers";
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+div.finish-text {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+p.finish-to-home {
+  font-size: 1.8rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /*--- Mobile portrait ---*/
+  .finish .finish-score {
+    font-size: 2rem;
+  }
+  p span {
+    font-size: 1.2rem;
+  }
+  p.finish-to-home {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 595px) {
+  /*--- Mobile landscape ---*/
+  .finish .finish-score {
+    font-size: 3rem;
+  }
+  div.finish-text {
+    font-size: 1.5rem;
+  }
+  p.finish-to-home {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+  /*--- Tablet landscape --- */
+  div.finish-text {
+    font-size: 1.7rem;
+  }
+}
