@@ -109,7 +109,7 @@ export default class App extends Component {
     };
     // =================================================================
     return (
-      <Router>
+      <Router basename={window.location.pathname || ""}>
         <Route exact path="/">
           <div className="app-container">
             <div className="category-box">
